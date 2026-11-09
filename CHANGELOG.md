@@ -1,5 +1,8 @@
 # 更新日志 / Changelog
 
+## 0.1.4
+- npm 页面元信息补全：repository / homepage / bugs 链接、双语详细简介
+
 ## 0.1.3
 - 新增常驻系统提示：报错前先 `error_lessons.search` 检索教训库，修好后自动 `error_lessons.add` 记录
 - 同一错误第二次出现时强制更新记录（`occurrences` 计数 +1），不再新增重复条目

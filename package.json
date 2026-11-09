@@ -1,7 +1,15 @@
 {
   "name": "dsh-error-lessons",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "跨会话错误教训库：代理处理报错前先检索历史教训（现象/根因/解法/结果），命中直接复用已验证的解法，犯过的错不再犯；同一错误第二次出现时强制更新记录（occurrences 计数）。纯本地 JSON 存储、跨会话共享、零依赖、无外部服务、无 API Key。Cross-session error lessons for DSH agents: search past mistakes before handling errors, reuse verified fixes, and force-record repeats. Local-only JSON, zero dependencies.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdmundZhangzy/dsh-error-lessons.git"
+  },
+  "homepage": "https://github.com/EdmundZhangzy/dsh-error-lessons#readme",
+  "bugs": {
+    "url": "https://github.com/EdmundZhangzy/dsh-error-lessons/issues"
+  },
   "license": "MIT",
   "type": "module",
   "main": "lib/index.mjs",
