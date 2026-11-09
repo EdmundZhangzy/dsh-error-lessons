@@ -2,3 +2,7 @@
 submission.yml
 EdmundZhangzy__dsh-error-lessons.yml
 CON
+verify.mjs
+semantic-test.mjs
+migrate-vec.mjs
+node_modules
