@@ -1,5 +1,8 @@
 # 更新日志 / Changelog
 
+## 0.1.5
+- 工具名从点号改为下划线（`error_lessons_search` / `error_lessons_add`），修复 DSH 工具名校验失败
+
 ## 0.1.4
 - npm 页面元信息补全：repository / homepage / bugs 链接、双语详细简介
 

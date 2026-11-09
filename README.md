@@ -13,16 +13,16 @@
 
 | 工具 | 作用 |
 |---|---|
-| `error_lessons.search` | 关键词检索教训（现象/根因/解法/结果），命中返回解法 + 是否重复 |
-| `error_lessons.add` | 记录一条已验证的新教训；相同症状自动更新计数 |
+| `error_lessons_search` | 关键词检索教训（现象/根因/解法/结果），命中返回解法 + 是否重复 |
+| `error_lessons_add` | 记录一条已验证的新教训；相同症状自动更新计数 |
 
 ## 使用示例
 
 ```
 报错: torch 2.8 合成输出满幅噪声
-→ error_lessons.search("torch noise 满幅噪声")
+→ error_lessons_search("torch noise 满幅噪声")
 → 命中: torch 2.8 与 RVC 合成器不兼容 → 降级 2.7.1+cu126 解决
-→ 修好后: error_lessons.add(symptom, cause, fix, result, tags) 记录
+→ 修好后: error_lessons_add(symptom, cause, fix, result, tags) 记录
 ```
 
 ## 安装
