@@ -1,0 +1,4 @@
+# One row, named exactly like the package: the loader imports this specifier.
+- insert:
+    - id: error-lessons
+      name: dsh-error-lessons
