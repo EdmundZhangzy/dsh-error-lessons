@@ -1,6 +1,6 @@
 {
   "name": "dsh-error-lessons",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Cross-session error lessons library for DeepSeek Harness agents: every mistake is recorded as symptom/root-cause/fix/result, and agents search the same lessons before handling errors so past mistakes are not repeated. Local plain JSON storage shared across sessions, no cloud.",
   "license": "MIT",
   "type": "module",
